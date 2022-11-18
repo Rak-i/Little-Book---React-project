@@ -1,0 +1,130 @@
+.single-page {
+  background-color: #F5F6FA;
+}
+
+.single-page .layout {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.single-page .sidebar {
+  height: auto;
+  background-color: #fff;
+  text-align: center;
+}
+
+.single-page .middle {
+  border: 2px solid green;
+}
+
+.single-page .content {
+  border: 2px solid green;
+}
+
+.submit {
+  border-radius: 40px;
+  padding: 10px 33px;
+  border-radius: 40px;
+  background-color: #B354B7;
+  color: #fff;
+  border: none;
+}
+
+.preview {
+  background-color: #fff;
+  height: auto;
+
+}
+
+.preview-cards {
+  padding: 30px;
+}
+
+.search-card {
+  margin: 5% 3% 3% 3%;
+}
+
+.search-btn {
+  margin-bottom: 5%;
+}
+
+.sidebar-content {
+  margin: 30px;
+}
+
+.logo {
+  width: 125px;
+}
+
+.filter {
+  text-align: left;
+}
+
+.filter h1 {
+  font-size: 15px !important;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  margin: 0px 3% 0px 0px;
+}
+
+::placeholder {
+  color: grey;
+  font-size: 13px;
+}
+
+.radio span {
+  font-size: 13px;
+  left: 10px;
+  position: relative;
+}
+
+.single-page .short-details {
+  display: -webkit-box;
+  height: 4.6em;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card {
+  margin: 0px 1px 3% 0px;
+  border-radius: 5%;
+}
+
+/* .card:active{ 
+  background-color: rgb(128,128,127);
+} */
+/* .card ::selection {
+  background-color: "red";
+  color: "white",
+} */
+
+.cardBlue {
+  margin: 0px 1px 3% 0px;
+  border-radius: 5%;
+  background-color: aqua;
+}
+
+.card-title {
+  font-size: 16px;
+}
+
+.card-type {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #B354B7;
+}
+
+.card-body h1 {
+  font-size: 30px;
+}
+
+.active {
+  background-color: #B354B7;
+}
